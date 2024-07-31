@@ -1,15 +1,5 @@
-# data.yaml
-train: D:/9nueveno/inteligencia artificial/laultima/dataset/train/images
-val: D:/9nueveno/inteligencia artificial/laultima/dataset/valid/images
-test: D:/9nueveno/inteligencia artificial/laultima/dataset/test/images
-
-nc: 7  # Número total de clases combinadas
-names: [
-    0: 'fish'
-    1: 'jellyfish'
-    2: 'penguin'
-    3: 'puffin'
-    4: 'shark'
-    5: 'starfish'
-    6: 'stingray'
-]
+train: train/images
+val: valid/images
+test: test/images
+nc: 7
+names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray']
